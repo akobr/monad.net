@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monads.Tests", "Monads.Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.ConsoleApp", "Example.ConsoleApp\Example.ConsoleApp.csproj", "{5B7357F1-F3DB-4B7E-ADE8-1D4CCA09373D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monads.Trees", "Monads.Trees\Monads.Trees.csproj", "{9C70EB49-3677-4214-AE9E-BEDA515C18D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{5B7357F1-F3DB-4B7E-ADE8-1D4CCA09373D}.Release|x64.Build.0 = Release|Any CPU
 		{5B7357F1-F3DB-4B7E-ADE8-1D4CCA09373D}.Release|x86.ActiveCfg = Release|Any CPU
 		{5B7357F1-F3DB-4B7E-ADE8-1D4CCA09373D}.Release|x86.Build.0 = Release|Any CPU
+		{9C70EB49-3677-4214-AE9E-BEDA515C18D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C70EB49-3677-4214-AE9E-BEDA515C18D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C70EB49-3677-4214-AE9E-BEDA515C18D0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9C70EB49-3677-4214-AE9E-BEDA515C18D0}.Debug|x64.Build.0 = Debug|Any CPU
+		{9C70EB49-3677-4214-AE9E-BEDA515C18D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9C70EB49-3677-4214-AE9E-BEDA515C18D0}.Debug|x86.Build.0 = Debug|Any CPU
+		{9C70EB49-3677-4214-AE9E-BEDA515C18D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C70EB49-3677-4214-AE9E-BEDA515C18D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C70EB49-3677-4214-AE9E-BEDA515C18D0}.Release|x64.ActiveCfg = Release|Any CPU
+		{9C70EB49-3677-4214-AE9E-BEDA515C18D0}.Release|x64.Build.0 = Release|Any CPU
+		{9C70EB49-3677-4214-AE9E-BEDA515C18D0}.Release|x86.ActiveCfg = Release|Any CPU
+		{9C70EB49-3677-4214-AE9E-BEDA515C18D0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
