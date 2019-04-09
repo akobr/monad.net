@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Monads
+namespace Monads.Trees
 {
-    public static class NodeExtensions
+    public static class TreeExtensions
     {
 #if MATH_NAMING
         public static ITreeNode<TResult> Map<TValue, TResult>(

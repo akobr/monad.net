@@ -7,7 +7,7 @@
             return new BinaryTreeLeaf<TItem>(item);
         }
 
-        public static IBinaryTreeNode<TItem> Create<TItem>(
+        public static IBinaryTreeNode<TItem> Node<TItem>(
             TItem item,
             IBinaryTreeNode<TItem> left,
             IBinaryTreeNode<TItem> right)

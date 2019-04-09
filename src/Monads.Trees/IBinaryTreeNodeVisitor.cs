@@ -2,6 +2,8 @@
 {
     public interface IBinaryTreeNodeVisitor<TItem, out TResult>
     {
-        TResult Visit(IBinaryTreeNode<TItem> node);
+        TResult Visit(BinaryTreeNode<TItem> node);
+
+        TResult Visit(BinaryTreeLeaf<TItem> node);
     }
 }

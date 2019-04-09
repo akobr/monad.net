@@ -2,7 +2,7 @@
 {
     public static class Tree
     {
-        public static ITreeNode<TItem> Create<TItem>(TItem item, params TreeNode<TItem>[] children)
+        public static ITreeNode<TItem> Node<TItem>(TItem item, params TreeNode<TItem>[] children)
         {
             return new TreeNode<TItem>(item, children);
         }
